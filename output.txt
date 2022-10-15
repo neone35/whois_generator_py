@@ -1,25 +1,25 @@
-therightsofnature.org 2023-09-06 14:54:18 yes
-webfunnels.com [datetime.datetime(2023, 9, 10, 20, 59, 30), datetime.datetime(2022, 9, 10, 20, 59, 30)] no
-celebrilla.com [datetime.datetime(2023, 9, 15, 15, 45, 14), datetime.datetime(2022, 9, 15, 15, 45, 14)] no
-freegameway.com [datetime.datetime(2023, 9, 8, 20, 3, 18), datetime.datetime(2022, 9, 8, 20, 3, 18)] no
-minimalstudent.com [datetime.datetime(2023, 9, 9, 16, 50, 34), datetime.datetime(2022, 9, 9, 16, 50, 34)] no
-techburst.io 2023-09-14 22:22:19 yes
-revolthemes.net [datetime.datetime(2023, 9, 14, 16, 45, 22), datetime.datetime(2022, 9, 14, 16, 45, 22)] no
-greenvisa.io 2023-09-10 07:06:59 yes
-cmgames.io 2023-08-24 02:55:46 yes
-hus.sh [datetime.datetime(2022, 11, 5, 0, 11, 15), datetime.datetime(2022, 11, 5, 0, 11, 15, 740000)] no
-y.p None no
-listnetworth.com 2023-09-06 06:46:04 yes
-metaverse.sh [datetime.datetime(2023, 7, 15, 7, 39, 6), datetime.datetime(2023, 7, 15, 7, 39, 6, 160000)] no
-colorfulconsole.com [datetime.datetime(2023, 9, 6, 17, 31, 8), datetime.datetime(2022, 9, 6, 17, 31, 8)] no
-cwhonors.org 2023-09-17 14:30:16 yes
-dev.link [datetime.datetime(2023, 9, 14, 14, 11, 31, 83000), datetime.datetime(2022, 9, 14, 14, 11, 31, 80000)] no
-speakerscorner.me 2023-08-21 14:47:27 yes
-rawrrr.com [datetime.datetime(2023, 9, 8, 10, 5, 14), datetime.datetime(2022, 9, 8, 10, 5, 14)] no
-codeverge.com 2023-08-26 23:28:31 yes
-streetviewexplore.com [datetime.datetime(2023, 9, 9, 2, 22, 17), datetime.datetime(2022, 9, 9, 2, 22, 17)] no
-ptraveler.com [datetime.datetime(2023, 9, 19, 12, 31, 40), datetime.datetime(2022, 9, 19, 12, 31, 40)] no
-betpasbetpas.com [datetime.datetime(2023, 9, 7, 11, 4, 57), datetime.datetime(2022, 9, 7, 11, 4, 57)] no
-4u.agency 2023-09-06 12:32:53 yes
-pathfinda.com 2023-09-07 17:58:18 yes
-theradioboard.com 2023-09-07 21:38:58 yes
+therightsofnature.org 2023-09-06 14:54:18 datetime
+webfunnels.com 2023-09-10 20:59:30 datetime
+celebrilla.com 2023-09-15 15:45:14 list
+freegameway.com 2023-09-08 20:03:18 list
+minimalstudent.com 2023-09-09 16:50:34 list
+techburst.io 2023-09-14 22:22:19 datetime
+revolthemes.net 2023-09-14 16:45:22 list
+greenvisa.io 2023-09-10 07:06:59 datetime
+cmgames.io 2023-08-24 02:55:46 datetime
+hus.sh 2022-11-05 00:11:15 list
+y.p None none
+listnetworth.com 2023-09-06 06:46:04 datetime
+metaverse.sh 2023-07-15 07:39:06 list
+colorfulconsole.com 2023-09-06 17:31:08 datetime
+cwhonors.org 2023-09-17 14:30:16 datetime
+dev.link 2023-09-14 14:11:31 datetime
+speakerscorner.me 2023-08-21 14:47:27 datetime
+rawrrr.com 2023-09-08 10:05:14 list
+codeverge.com 2023-08-26 23:28:31 datetime
+streetviewexplore.com 2023-09-09 02:22:17 datetime
+ptraveler.com 2023-09-19 12:31:40 datetime
+betpasbetpas.com 2023-09-07 11:04:57 datetime
+4u.agency 2023-09-06 12:32:53 datetime
+pathfinda.com 2023-09-07 17:58:18 list
+theradioboard.com 2023-09-07 21:38:58 datetime
