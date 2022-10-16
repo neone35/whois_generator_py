@@ -2,6 +2,7 @@ import time  # for execution time calculation
 from pick import pick
 import domain_file_scanner
 import domain_generator
+import easygui
 
 st = time.time()  # start time
 
@@ -19,7 +20,9 @@ if menu_entry_index == 0:
     top_level_domain = input("Enter top level domain (ex: .com): ")
     domain_generator.generate(top_level_domain, number_of_chars, chosen_ascii_chars)
 elif menu_entry_index == 1:
-    file_name = input("Enter file name to scan (ex: name.csv): ")
+    print("Enter file name to scan (ex: name.csv):")
+    file_name = easygui.fileopenbox()  # show an "Open" dialog box and return the path to the selected file
+    # file_name = input("Enter file name to scan (ex: name.csv): ")
     domain_file_scanner.scanner(file_name)
 
 # Give some stats after work finishes
