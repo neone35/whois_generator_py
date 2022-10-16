@@ -1,49 +1,28 @@
-import whois
-import pandas as pd # open source data analysis and manipulation tool
-import time # for execution time calculation
-from datetime import datetime
-st = time.time() # start time
+import time  # for execution time calculation
+from pick import pick
+import domain_file_scanner
+import domain_generator
 
-# reading exported domains
-data = pd.read_csv("domain_export.csv")
+st = time.time()  # start time
 
-domain_names = []
-exp_dates = []
-type_of_date = []
-for name in data.name:
-    domain_names.append(name)
-    w = whois.whois(name)
-    exp_date = w.expiration_date  # dates converted to datetime object
-    print(exp_date)
-    if isinstance(exp_date, datetime):
-        exp_date = exp_date.strftime("%Y-%m-%d %H:%M:%S") # format unformatted
-        type_of_date.append('datetime')
-    elif isinstance(exp_date, list):
-        print(exp_date)
-        exp_date = exp_date[0].strftime("%Y-%m-%d %H:%M:%S") # format unformatted
-        type_of_date.append('list')
-    else:
-        type_of_date.append('none')
-    exp_dates.append(exp_date)
+title = 'Choose what to do: '
+menu_options = ["generate domain list permutations", "scan domain file for expiry dates"]
+option, menu_entry_index = pick(menu_options, title)
 
-data_arr = []
-for i in range(0, len(data)):
-    data_arr.insert(i, [domain_names[i], exp_dates[i], type_of_date[i]])
+if menu_entry_index == 0:
+    number_of_chars = input("Enter number of chars to generate: ")
+    ascii_title = 'Which ascii characters to include when generating? '
+    chosen_ascii_chars = pick(["uppercase", "lowercase", "digits"],
+                              ascii_title,
+                              multiselect=True,
+                              min_selection_count=1)
+    top_level_domain = input("Enter top level domain (ex: .com): ")
+    domain_generator.generate(top_level_domain, number_of_chars, chosen_ascii_chars)
+elif menu_entry_index == 1:
+    file_name = input("Enter file name to scan (ex: name.csv): ")
+    domain_file_scanner.scanner(file_name)
 
-f = open("output.txt", "w")
-for i in range(0, len(data_arr)):
-    f.write(f"{data_arr[i][0]} {data_arr[i][1]} {data_arr[i][2]}\n")
-f.close()
-
-out_csv_header = ['Domain', 'Expiration date', 'Date type']
-pd_data = pd.DataFrame(data_arr, columns=out_csv_header)
-pd_data.to_csv('output.csv', index=False)
-
-et = time.time() # end time
-elapsed_time = et - st # execution time
-print('Processed', len(domain_names), 'domains')
+# Give some stats after work finishes
+et = time.time()  # end time
+elapsed_time = et - st  # execution time
 print('Execution time:', "%.2f" % elapsed_time, 'seconds')
-
-# f = open("output.txt", "r")
-# print(f.read())
-
