@@ -39,3 +39,4 @@ def write_to_csv(header, data_arr, filename='output.csv'):
         print('Error while writing to csv file. Info below. Exiting.. \n')
         print(e)
         sys.exit(0)
+

@@ -1,6 +1,7 @@
 import pandas as pd  # open source data analysis and manipulation tool
 import file_tools
 import sys
+import mail
 from Domain import Domain
 
 domain_names = []
@@ -32,7 +33,7 @@ def case_txt(data):
         append(domain)
 
 
-def scanner(filename):
+def scanner(filename, mail_to):
     data = []
     if filename[-4:] == ".csv":
         try:
@@ -76,3 +77,16 @@ def scanner(filename):
     # Give some stats after work finishes
     print('\nProcessed', len(domain_names), 'domains')
     print('Results written to', csv_filename + ' and ' + txt_filename)
+
+    # Send email
+    abs_output_dir = file_tools.abs_output_dir
+    mail_from = "artur@whoisgen.ga"
+    try:
+        mail.send_mail(mail_from, mail_to,
+                       "Whois generator results", "Result files attached",
+                       [abs_output_dir + txt_filename, abs_output_dir + csv_filename])
+        print('\nEmail sent to', mail_to + ' with those files attached')
+    except Exception as e:
+        print('Error while sending email. Info below. Exiting.. \n')
+        print(e)
+        sys.exit(0)
