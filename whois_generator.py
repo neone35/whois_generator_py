@@ -7,7 +7,7 @@ import easygui
 st = time.time()  # start time
 
 title = 'Choose what to do: '
-menu_options = ["generate domain list permutations", "scan domain file for expiry dates"]
+menu_options = ["generate domain list permutations", "scan domain file for whois/availability"]
 option, menu_entry_index = pick(menu_options, title)
 
 if menu_entry_index == 0:
