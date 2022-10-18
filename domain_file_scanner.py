@@ -9,8 +9,8 @@ registrars = []
 availabilities = []
 
 
-def append(name, domain):
-    domain_names.append(name)
+def append(domain):
+    domain_names.append(domain.name)
     exp_dates.append(domain.exp_date)
     registrars.append(domain.registrar)
     availabilities.append(domain.availability)
@@ -21,7 +21,7 @@ def case_csv(data):
         domain = Domain(name)
         print('Processing', name)
         domain.whois_extract(name)
-        append(name, domain)
+        append(domain)
 
 
 def case_txt(data):
@@ -29,22 +29,32 @@ def case_txt(data):
         domain = Domain(name)
         print('Processing', name)
         domain.whois_extract(name)
-        append(name, domain)
+        append(domain)
 
 
 def scanner(filename):
     data = []
     if filename[-4:] == ".csv":
-        data = pd.read_csv(filename)
-        case_csv(data)
+        try:
+            data = pd.read_csv(filename)
+            case_csv(data)
+        except Exception as e:
+            print('Error while scanning csv file. Info below. Exiting.. \n')
+            print(e)
+            sys.exit(0)
     elif filename[-4:] == ".txt":
-        file = open(filename, "r")
-        for line in file:
-            data.append(line.rstrip())
-        case_txt(data)
-        file.close()
+        try:
+            file = open(filename, "r")
+            for line in file:
+                data.append(line.rstrip())
+            case_txt(data)
+            file.close()
+        except Exception as e:
+            print('Error while scanning txt file. Info below. Exiting.. \n')
+            print(e)
+            sys.exit(0)
     else:
-        print('Wrong filename given. Exiting..')
+        print('Unsupported filename given. Exiting..')
         sys.exit(0)
 
     # Push all data into 2D array

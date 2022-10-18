@@ -53,8 +53,8 @@ class Domain:
                     self.availability = "unknown"
             else:
                 self.availability = "error"
-        except Exception as x:
-            self.availability = "error " + x
+        except Exception as e:
+            self.availability = "error " + e
 
     def http(self, name):
         self.con.request('GET',

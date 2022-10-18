@@ -1,11 +1,11 @@
-Domain,Expiration date,Date type,Registrar,Availability
-www.0.com,2022-12-08 16:53:46,datetime,RESERVED-Internet Assigned Numbers Authority,taken
-www.1.com,2022-12-08 16:49:57,datetime,RESERVED-Internet Assigned Numbers Authority,taken
-www.2.com,2022-12-08 16:38:11,datetime,RESERVED-Internet Assigned Numbers Authority,taken
-www.3.com,2022-12-08 17:03:48,datetime,RESERVED-Internet Assigned Numbers Authority,taken
-www.4.com,2022-12-08 16:50:44,datetime,RESERVED-Internet Assigned Numbers Authority,taken
-www.5.com,2022-12-08 16:47:06,datetime,RESERVED-Internet Assigned Numbers Authority,taken
-www.6.com,2022-12-08 16:59:22,datetime,RESERVED-Internet Assigned Numbers Authority,taken
-www.7.com,2022-12-08 16:44:28,datetime,RESERVED-Internet Assigned Numbers Authority,taken
-www.8.com,2022-12-08 16:52:51,datetime,RESERVED-Internet Assigned Numbers Authority,taken
-www.9.com,2022-12-08 16:56:43,datetime,RESERVED-Internet Assigned Numbers Authority,taken
+Domain,Expiration date,Registrar,Availability
+www.0.com,2022-12-08 16:53:46,RESERVED-Internet Assigned Numbers Authority,taken
+www.1.com,2022-12-08 16:49:57,RESERVED-Internet Assigned Numbers Authority,taken
+www.2.com,2022-12-08 16:38:11,RESERVED-Internet Assigned Numbers Authority,taken
+www.3.com,2022-12-08 17:03:48,RESERVED-Internet Assigned Numbers Authority,taken
+www.4.com,2022-12-08 16:50:44,RESERVED-Internet Assigned Numbers Authority,taken
+www.5.com,2022-12-08 16:47:06,RESERVED-Internet Assigned Numbers Authority,taken
+www.6.com,2022-12-08 16:59:22,RESERVED-Internet Assigned Numbers Authority,taken
+www.7.com,2022-12-08 16:44:28,RESERVED-Internet Assigned Numbers Authority,taken
+www.8.com,2022-12-08 16:52:51,RESERVED-Internet Assigned Numbers Authority,taken
+www.9.com,2022-12-08 16:56:43,RESERVED-Internet Assigned Numbers Authority,taken
