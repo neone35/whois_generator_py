@@ -3,7 +3,9 @@ import itertools
 import file_tools
 
 
-def generate(top_level_domain, length=3, chosen_ascii_chars=['lowercase']):
+def generate(top_level_domain, length=3, chosen_ascii_chars=None):
+    if chosen_ascii_chars is None:
+        chosen_ascii_chars = ['lowercase']
     chars = ''
     if any('lowercase' in sublist for sublist in chosen_ascii_chars):
         chars = string.ascii_lowercase  # "abcdefghijklmnopqrstuvwxyz"

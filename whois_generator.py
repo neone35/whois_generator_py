@@ -21,10 +21,11 @@ if menu_entry_index == 0:
     domain_generator.generate(top_level_domain, number_of_chars, chosen_ascii_chars)
 elif menu_entry_index == 1:
     mail_to = input("Enter your email (ex: artur@whoisgen.ga): ")
-    print("Enter file name to scan (ex: name.csv):")
-    file_name = easygui.fileopenbox()  # show an "Open" dialog box and return the path to the selected file
+    out_file_name = input("Enter output filename (ex: scanned_domains_2digit_com): ")
+    print("Choose file name to scan (ex: name.csv):")
+    src_file_name = easygui.fileopenbox()  # show an "Open" dialog box and return the path to the selected file
     # file_name = input("Enter file name to scan (ex: name.csv): ")
-    domain_file_scanner.scanner(file_name, mail_to)
+    domain_file_scanner.scanner(src_file_name, out_file_name, mail_to)
 
 # Give some stats after work finishes
 et = time.time()  # end time

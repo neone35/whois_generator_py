@@ -1,0 +1,100 @@
+www.00.xyz 2023-10-10 23:59:59 NAMECHEAP INC taken
+www.01.xyz 2022-11-26 23:59:59 NAMECHEAP INC taken
+www.02.xyz none None available
+www.03.xyz none None available
+www.04.xyz none None available
+www.05.xyz none None available
+www.06.xyz none None available
+www.07.xyz none None available
+www.08.xyz none None available
+www.09.xyz none None available
+www.10.xyz 2022-11-06 23:59:59 DNSPod, Inc. taken
+www.11.xyz 2023-04-07 23:59:59 Chengdu west dimension digital technology Co., LTD taken
+www.12.xyz none None available
+www.13.xyz none None available
+www.14.xyz none None available
+www.15.xyz 2026-01-11 23:59:59 Chengdu west dimension digital technology Co., LTD taken
+www.16.xyz 2028-03-08 23:59:59 Alibaba Cloud Computing Ltd. d/b/a HiChina (www.net.cn) taken
+www.17.xyz none None available
+www.18.xyz none None available
+www.19.xyz none None available
+www.20.xyz none None available
+www.21.xyz 2022-11-03 23:59:59 GoDaddy.com, LLC taken
+www.22.xyz 2028-03-20 23:59:59 Chengdu west dimension digital technology Co., LTD taken
+www.23.xyz none None available
+www.24.xyz none None available
+www.25.xyz none None available
+www.26.xyz none None available
+www.27.xyz none None available
+www.28.xyz none None available
+www.29.xyz 2026-01-11 23:59:59 Chengdu west dimension digital technology Co., LTD taken
+www.30.xyz none None available
+www.31.xyz none None available
+www.32.xyz 2023-10-01 23:59:59 NAMECHEAP INC taken
+www.33.xyz none None available
+www.34.xyz none None available
+www.35.xyz 2032-04-07 23:59:59 Chengdu west dimension digital technology Co., LTD taken
+www.36.xyz none None available
+www.37.xyz none None available
+www.38.xyz none None available
+www.39.xyz none None available
+www.40.xyz none None available
+www.41.xyz none None available
+www.42.xyz none None available
+www.43.xyz none None available
+www.44.xyz none None available
+www.45.xyz none None available
+www.46.xyz none None available
+www.47.xyz none None available
+www.48.xyz none None available
+www.49.xyz none None available
+www.50.xyz none None available
+www.51.xyz 2027-04-07 23:59:59 Alibaba Cloud Computing Ltd. d/b/a HiChina (www.net.cn) taken
+www.52.xyz 2025-04-07 23:59:59 Chengdu west dimension digital technology Co., LTD taken
+www.53.xyz none None available
+www.54.xyz none None available
+www.55.xyz 2024-01-19 23:59:59 NameSilo, LLC taken
+www.56.xyz none None available
+www.57.xyz none None available
+www.58.xyz 2023-01-18 23:59:59 Chengdu west dimension digital technology Co., LTD taken
+www.59.xyz none None available
+www.60.xyz none None available
+www.61.xyz none None available
+www.62.xyz none None available
+www.63.xyz none None available
+www.64.xyz none None available
+www.65.xyz none None available
+www.66.xyz 2023-04-07 23:59:59 Chengdu west dimension digital technology Co., LTD taken
+www.67.xyz none None available
+www.68.xyz 2023-04-10 23:59:59 eName Technology Co., Ltd. taken
+www.69.xyz none None available
+www.70.xyz none None available
+www.71.xyz none None available
+www.72.xyz none None available
+www.73.xyz none None available
+www.74.xyz none None available
+www.75.xyz none None available
+www.76.xyz none None available
+www.77.xyz 2023-03-18 23:59:59 Porkbun LLC taken
+www.78.xyz none None available
+www.79.xyz none None available
+www.80.xyz 2023-03-08 23:59:59 Alibaba Cloud Computing Ltd. d/b/a HiChina (www.net.cn) taken
+www.81.xyz none None available
+www.82.xyz none None available
+www.83.xyz none None available
+www.84.xyz none None available
+www.85.xyz none None available
+www.86.xyz none None available
+www.87.xyz none None available
+www.88.xyz 2023-03-20 23:59:59 Chengdu west dimension digital technology Co., LTD taken
+www.89.xyz none None available
+www.90.xyz none None available
+www.91.xyz none None available
+www.92.xyz none None available
+www.93.xyz 2023-06-17 23:59:59 SAV.COM, LLC - 25 taken
+www.94.xyz none None available
+www.95.xyz none None available
+www.96.xyz 2032-01-19 23:59:59 Chengdu west dimension digital technology Co., LTD taken
+www.97.xyz none None available
+www.98.xyz 2025-04-07 23:59:59 Chengdu west dimension digital technology Co., LTD taken
+www.99.xyz 2023-01-18 23:59:59 Chengdu west dimension digital technology Co., LTD taken

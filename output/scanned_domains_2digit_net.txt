@@ -1,0 +1,100 @@
+www.00.net 2023-10-06 04:00:00 eName Technology Co.,Ltd. taken
+www.01.net 2024-01-29 05:00:00 GoDaddy.com, LLC taken
+www.02.net 2023-01-01 05:00:00 TUCOWS, INC. taken
+www.03.net 2024-08-30 04:00:00 GoDaddy.com, LLC taken
+www.04.net 2031-09-03 01:04:13 GMO INTERNET, INC. taken
+www.05.net 2031-09-03 00:37:22 GMO INTERNET, INC. taken
+www.06.net 2024-05-28 04:00:00 GoDaddy.com, LLC taken
+www.07.net 2032-06-22 04:00:00 Network Solutions, LLC taken
+www.08.net 2024-12-22 05:00:00 GoDaddy.com, LLC taken
+www.09.net 2025-09-12 04:00:00 GoDaddy.com, LLC taken
+www.10.net 2026-03-07 11:44:06 GoDaddy.com, LLC taken
+www.11.net 2023-12-26 11:59:59 GoDaddy.com, LLC taken
+www.12.net 2030-09-30 04:00:00 GoDaddy.com, LLC taken
+www.13.net 2024-01-26 05:00:00 GoDaddy.com, LLC taken
+www.14.net 2023-09-01 04:00:00 GoDaddy.com, LLC taken
+www.15.net 2030-10-29 04:00:00 GoDaddy.com, LLC taken
+www.16.net 2025-03-14 04:00:00 GoDaddy.com, LLC taken
+www.17.net 2024-11-03 06:00:00 GoDaddy.com, LLC taken
+www.18.net 2024-01-08 05:00:00 eName Technology Co.,Ltd. taken
+www.19.net 2023-07-13 11:59:59 GoDaddy.com, LLC taken
+www.20.net 2025-11-24 11:41:24 GoDaddy.com, LLC taken
+www.21.net 2023-05-22 04:00:00 GoDaddy.com, LLC taken
+www.22.net 2023-04-16 04:00:00 eName Technology Co.,Ltd. taken
+www.23.net 2024-03-31 04:00:00 GoDaddy.com, LLC taken
+www.24.net 2026-12-30 05:00:00 eName Technology Co.,Ltd. taken
+www.25.net 2024-01-19 19:28:40 eName Technology Co.,Ltd. taken
+www.26.net 2025-07-01 04:00:00 GoDaddy.com, LLC taken
+www.27.net 2023-09-01 04:00:00 GoDaddy.com, LLC taken
+www.28.net 2023-12-25 05:00:00 GoDaddy.com, LLC taken
+www.29.net 2024-07-01 04:00:00 GoDaddy.com, LLC taken
+www.30.net 2023-06-08 04:00:00 eName Technology Co.,Ltd. taken
+www.31.net 2023-11-10 19:15:17 GoDaddy.com, LLC taken
+www.32.net 2023-09-29 11:10:33 GoDaddy.com, LLC taken
+www.33.net 2026-05-06 04:00:00 GoDaddy.com, LLC taken
+www.34.net 2023-01-22 05:00:00 GoDaddy.com, LLC taken
+www.35.net 2023-03-13 10:49:15 Xiamen 35.Com Technology Co., Ltd taken
+www.36.net 2025-01-22 05:00:00 GoDaddy.com, LLC taken
+www.37.net 2023-05-03 19:33:27 TUCOWS, INC. taken
+www.38.net 2025-07-01 04:00:00 Name.com, Inc. taken
+www.39.net 2023-01-22 05:00:00 Alibaba Cloud Computing (Beijing) Co., Ltd. taken
+www.40.net 2023-03-07 11:52:51 DYNADOT LLC taken
+www.41.net 2024-09-28 11:43:05 GoDaddy.com, LLC taken
+www.42.net 2029-11-29 05:00:00 Register.com, Inc. taken
+www.43.net 2022-12-12 11:59:59 GoDaddy.com, LLC taken
+www.44.net 2023-11-19 05:00:00 eName Technology Co.,Ltd. taken
+www.45.net 2023-06-08 04:00:00 Moniker Online Services LLC taken
+www.46.net 2029-03-31 04:00:00 GoDaddy.com, LLC taken
+www.47.net 2025-09-18 04:00:00 NAMECHEAP INC taken
+www.48.net 2031-01-22 05:00:00 GoDaddy.com, LLC taken
+www.49.net 2028-03-13 10:53:37 eName Technology Co.,Ltd. taken
+www.50.net 2024-04-16 04:00:00 GoDaddy.com, LLC taken
+www.51.net 2023-12-29 18:22:07 Internet Domain Service BS Corp. taken
+www.52.net 2023-09-27 11:53:27 NAMECHEAP INC taken
+www.53.net 2025-07-01 04:00:00 GoDaddy.com, LLC taken
+www.54.net 2023-01-22 05:00:00 eName Technology Co., Ltd. taken
+www.55.net 2023-04-21 04:00:00 GoDaddy.com, LLC taken
+www.56.net 2025-03-17 11:59:59 GoDaddy.com, LLC taken
+www.57.net 2023-07-01 04:00:00 eName Technology Co.,Ltd. taken
+www.58.net 2023-07-01 04:00:00 eName Technology Co.,Ltd. taken
+www.59.net 2024-07-01 04:00:00 GoDaddy.com, LLC taken
+www.60.net 2024-04-16 04:00:00 GoDaddy.com, LLC taken
+www.61.net 2024-01-22 05:00:00 NameSilo, LLC taken
+www.62.net 2026-01-22 05:00:00 Shenzhen Internet Works Online Technology Co.,Ltd.( 62.com) taken
+www.63.net 2025-03-13 10:54:40 GoDaddy.com, LLC taken
+www.64.net 2026-01-22 05:00:00 GoDaddy.com, LLC taken
+www.65.net 2027-03-06 11:48:03 GoDaddy.com, LLC taken
+www.66.net 2023-06-25 04:00:00 NameSilo, LLC taken
+www.67.net 2023-07-01 04:00:00 eName Technology Co.,Ltd. taken
+www.68.net none none unknown
+www.69.net 2023-07-21 04:00:00 Moniker Online Services LLC taken
+www.70.net 2024-03-13 11:09:57 GoDaddy.com, LLC taken
+www.71.net 2026-07-01 04:00:00 Ourdomains Limited taken
+www.72.net 2023-07-01 04:00:00 eName Technology Co.,Ltd. taken
+www.73.net 2023-07-01 04:00:00 eName Technology Co.,Ltd. taken
+www.74.net 2024-07-01 04:00:00 GoDaddy.com, LLC taken
+www.75.net 2023-04-16 04:00:00 GoDaddy.com, LLC taken
+www.76.net 2024-07-01 04:00:00 GoDaddy.com, LLC taken
+www.77.net 2027-07-31 04:19:33 GoDaddy.com, LLC taken
+www.78.net 2023-07-01 04:00:00 Alibaba Cloud Computing (Beijing) Co., Ltd. taken
+www.79.net 2025-06-19 18:34:23 GoDaddy.com, LLC taken
+www.80.net 2025-03-06 11:55:49 GoDaddy.com, LLC taken
+www.81.net 2029-01-22 05:00:00 eName Technology Co.,Ltd. taken
+www.82.net 2023-09-28 12:59:38 eName Technology Co.,Ltd. taken
+www.83.net 2024-07-01 04:00:00 GoDaddy.com, LLC taken
+www.84.net 2023-07-01 04:00:00 eName Technology Co.,Ltd. taken
+www.85.net 2023-01-19 19:11:10 eName Technology Co.,Ltd. taken
+www.86.net 2025-01-04 07:16:49 eName Technology Co.,Ltd. taken
+www.87.net 2025-04-26 04:00:00 GoDaddy.com, LLC taken
+www.88.net 2025-04-23 04:00:00 GoDaddy.com, LLC taken
+www.89.net 2023-12-08 12:26:25 GoDaddy.com, LLC taken
+www.90.net 2024-04-16 04:00:00 GoDaddy.com, LLC taken
+www.91.net 2030-11-24 14:57:28 Sea Wasp, LLC taken
+www.92.net 2023-07-30 04:00:00 eName Technology Co.,Ltd. taken
+www.93.net 2023-02-14 19:19:03 eName Technology Co.,Ltd. taken
+www.94.net 2027-03-06 11:48:07 GoDaddy.com, LLC taken
+www.95.net 2025-12-06 12:22:06 eName Technology Co.,Ltd. taken
+www.96.net 2025-03-30 04:00:00 GoDaddy.com, LLC taken
+www.97.net 2024-06-24 04:00:00 GoDaddy.com, LLC taken
+www.98.net 2025-12-28 11:59:59 GoDaddy.com, LLC taken
+www.99.net 2023-02-21 11:39:59 eName Technology Co.,Ltd. taken

@@ -33,19 +33,19 @@ def case_txt(data):
         append(domain)
 
 
-def scanner(filename, mail_to):
+def scanner(src_file_name, out_file_name, mail_to):
     data = []
-    if filename[-4:] == ".csv":
+    if src_file_name[-4:] == ".csv":
         try:
-            data = pd.read_csv(filename)
+            data = pd.read_csv(src_file_name)
             case_csv(data)
         except Exception as e:
             print('Error while scanning csv file. Info below. Exiting.. \n')
             print(e)
             sys.exit(0)
-    elif filename[-4:] == ".txt":
+    elif src_file_name[-4:] == ".txt":
         try:
-            file = open(filename, "r")
+            file = open(src_file_name, "r")
             for line in file:
                 data.append(line.rstrip())
             case_txt(data)
@@ -65,13 +65,13 @@ def scanner(filename, mail_to):
                             registrars[i], availabilities[i]])
 
     # Write to .txt file
-    txt_filename = 'scanned_domains.txt'
+    txt_filename = out_file_name + '.txt'
     file_tools.write_to_txt(data_arr, txt_filename)
 
     # Write to .csv file
     out_csv_header = ['Domain', 'Expiration date',
                       'Registrar', 'Availability']
-    csv_filename = 'scanned_domains.csv'
+    csv_filename = out_file_name + '.csv'
     file_tools.write_to_csv(out_csv_header, data_arr, csv_filename)
 
     # Give some stats after work finishes
