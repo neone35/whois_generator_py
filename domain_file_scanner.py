@@ -5,30 +5,31 @@ from Domain import Domain
 
 domain_names = []
 exp_dates = []
-type_of_dates = []
 registrars = []
+availabilities = []
+
+
+def append(name, domain):
+    domain_names.append(name)
+    exp_dates.append(domain.exp_date)
+    registrars.append(domain.registrar)
+    availabilities.append(domain.availability)
 
 
 def case_csv(data):
     for name in data.name:
         domain = Domain(name)
         print('Processing', name)
-        domain_names.append(name)
         domain.whois_extract(name)
-        exp_dates.append(domain.exp_date)
-        type_of_dates.append(domain.type_of_date)
-        registrars.append(domain.registrar)
+        append(name, domain)
 
 
 def case_txt(data):
     for name in data:
         domain = Domain(name)
         print('Processing', name)
-        domain_names.append(name)
         domain.whois_extract(name)
-        exp_dates.append(domain.exp_date)
-        type_of_dates.append(domain.type_of_date)
-        registrars.append(domain.registrar)
+        append(name, domain)
 
 
 def scanner(filename):
@@ -50,14 +51,15 @@ def scanner(filename):
     data_arr = []
     for i in range(0, len(data)):
         data_arr.insert(i, [domain_names[i], exp_dates[i],
-                            type_of_dates[i], registrars[i]])
+                            registrars[i], availabilities[i]])
 
     # Write to .txt file
     txt_filename = 'scanned_domains.txt'
     file_tools.write_to_txt(data_arr, txt_filename)
 
     # Write to .csv file
-    out_csv_header = ['Domain', 'Expiration date', 'Date type', "Registrar"]
+    out_csv_header = ['Domain', 'Expiration date',
+                      'Registrar', 'Availability']
     csv_filename = 'scanned_domains.csv'
     file_tools.write_to_csv(out_csv_header, data_arr, csv_filename)
 
