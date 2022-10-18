@@ -1,27 +1,27 @@
-Domain,Expiration date,Date type
-www.a.com,2022-12-08 16:57:30,datetime
-www.b.com,2022-12-08 16:38:25,datetime
-www.c.com,2022-12-08 16:43:09,datetime
-www.d.com,2022-12-08 16:58:36,datetime
-www.e.com,2022-12-08 17:05:02,datetime
-www.f.com,2022-12-08 16:39:38,datetime
-www.g.com,2022-12-08 17:00:34,datetime
-www.h.com,2022-12-08 16:50:17,datetime
-www.i.com,2022-12-08 16:38:40,datetime
-www.j.com,2022-12-08 16:43:34,datetime
-www.k.com,2022-12-08 16:40:53,datetime
-www.l.com,2022-12-08 16:57:43,datetime
-www.m.com,2022-12-08 16:56:33,datetime
-www.n.com,2022-12-08 17:04:14,datetime
-www.o.com,2022-12-08 17:02:09,datetime
-www.p.com,2022-12-08 17:03:02,datetime
-www.q.com,2023-03-30 04:00:00,datetime
-www.r.com,2022-12-08 16:38:55,datetime
-www.s.com,2022-12-08 17:04:37,datetime
-www.t.com,2022-12-08 17:00:21,datetime
-www.u.com,2022-12-08 16:55:11,datetime
-www.v.com,2022-12-08 16:58:59,datetime
-www.w.com,2022-12-08 16:39:07,datetime
-www.x.com,2026-10-20 19:56:17,list
-www.y.com,2022-12-08 16:54:38,datetime
-www.z.com,2022-12-18 05:00:00,datetime
+Domain,Expiration date,Date type,Registrar
+www.a.com,2022-12-08 16:57:30,datetime,RESERVED-Internet Assigned Numbers Authority
+www.b.com,2022-12-08 16:38:25,datetime,RESERVED-Internet Assigned Numbers Authority
+www.c.com,2022-12-08 16:43:09,datetime,RESERVED-Internet Assigned Numbers Authority
+www.d.com,2022-12-08 16:58:36,datetime,RESERVED-Internet Assigned Numbers Authority
+www.e.com,2022-12-08 17:05:02,datetime,RESERVED-Internet Assigned Numbers Authority
+www.f.com,2022-12-08 16:39:38,datetime,RESERVED-Internet Assigned Numbers Authority
+www.g.com,2022-12-08 17:00:34,datetime,RESERVED-Internet Assigned Numbers Authority
+www.h.com,2022-12-08 16:50:17,datetime,RESERVED-Internet Assigned Numbers Authority
+www.i.com,2022-12-08 16:38:40,datetime,RESERVED-Internet Assigned Numbers Authority
+www.j.com,2022-12-08 16:43:34,datetime,RESERVED-Internet Assigned Numbers Authority
+www.k.com,2022-12-08 16:40:53,datetime,RESERVED-Internet Assigned Numbers Authority
+www.l.com,2022-12-08 16:57:43,datetime,RESERVED-Internet Assigned Numbers Authority
+www.m.com,2022-12-08 16:56:33,datetime,RESERVED-Internet Assigned Numbers Authority
+www.n.com,2022-12-08 17:04:14,datetime,RESERVED-Internet Assigned Numbers Authority
+www.o.com,2022-12-08 17:02:09,datetime,RESERVED-Internet Assigned Numbers Authority
+www.p.com,2022-12-08 17:03:02,datetime,RESERVED-Internet Assigned Numbers Authority
+www.q.com,2023-03-30 04:00:00,datetime,"CSC CORPORATE DOMAINS, INC."
+www.r.com,2022-12-08 16:38:55,datetime,RESERVED-Internet Assigned Numbers Authority
+www.s.com,2022-12-08 17:04:37,datetime,RESERVED-Internet Assigned Numbers Authority
+www.t.com,2022-12-08 17:00:21,datetime,RESERVED-Internet Assigned Numbers Authority
+www.u.com,2022-12-08 16:55:11,datetime,RESERVED-Internet Assigned Numbers Authority
+www.v.com,2022-12-08 16:58:59,datetime,RESERVED-Internet Assigned Numbers Authority
+www.w.com,2022-12-08 16:39:07,datetime,RESERVED-Internet Assigned Numbers Authority
+www.x.com,2026-10-20 19:56:17,list,"GoDaddy.com, LLC"
+www.y.com,2022-12-08 16:54:38,datetime,RESERVED-Internet Assigned Numbers Authority
+www.z.com,2022-12-18 05:00:00,datetime,"GMO INTERNET, INC."
