@@ -3,11 +3,17 @@ import file_tools
 import sys
 import mail
 from Domain import Domain
+from http.client import HTTPSConnection
+import os
+from dotenv import load_dotenv
 
 domain_names = []
 exp_dates = []
 registrars = []
 availabilities = []
+con = object
+domainr_key = ""
+domainr_url = ""
 
 
 def append(domain):
@@ -17,23 +23,56 @@ def append(domain):
     availabilities.append(domain.availability)
 
 
+def switch_to_rapidapi():
+    global con
+    global domainr_key
+    global domainr_url
+    con = HTTPSConnection('domainr.p.rapidapi.com')
+    domainr_key = os.getenv('DOMAINR_RAPIDAPI_KEY')
+    domainr_url = "/v2/status?mashape-key="
+
+
+def switch_to_domainrapi():
+    global con
+    global domainr_key
+    global domainr_url
+    con = HTTPSConnection('api.domainr.com')
+    domainr_key = os.getenv('DOMAINR_CLIENT_ID')
+    domainr_url = "/v2/status?client_id="
+
+
+# switch api url from limited rapidAPI to domainrAPI if successful response
+def switch_domainr_api():
+    if os.getenv('DOMAINR_CLIENT_ID') is not None:
+        switch_to_domainrapi()
+        print("Using unlimited Domainr API")
+    elif os.getenv('DOMAINR_RAPIDAPI_KEY') is not None:
+        switch_to_rapidapi()
+        print("Switched to limited Domainr RapidAPI (10K/month)")
+    else:
+        print("No API key found in .env file. Please add DOMAINR_CLIENT_ID or DOMAINR_RAPIDAPI_KEY")
+
+
 def case_csv(data):
+    switch_domainr_api()
     for name in data.name:
-        domain = Domain(name)
+        domain = Domain(name, con, domainr_url, domainr_key)
         print('Processing', name)
         domain.whois_extract(name)
         append(domain)
 
 
 def case_txt(data):
+    switch_domainr_api()
     for name in data:
-        domain = Domain(name)
+        domain = Domain(name, con, domainr_url, domainr_key)
         print('Processing', name)
         domain.whois_extract(name)
         append(domain)
 
 
 def scanner(src_file_name, out_file_name, mail_to):
+    load_dotenv()
     data = []
     if src_file_name[-4:] == ".csv":
         try:

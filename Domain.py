@@ -1,9 +1,6 @@
 from datetime import datetime
 import json
 import whois
-from http.client import HTTPSConnection
-import os
-from dotenv import load_dotenv
 
 
 class Domain:
@@ -12,13 +9,14 @@ class Domain:
     registrar = ""
     availability = ""
     con = object
+    domainr_url = ""
     domainr_key = ""
 
-    def __init__(self, name):
-        load_dotenv()
+    def __init__(self, name, con, domainr_url, domainr_key):
         self.name = name
-        self.con = HTTPSConnection('domainr.p.rapidapi.com')
-        self.domainr_key = os.getenv('DOMAINR_RAPIDAPI_KEY')
+        self.con = con
+        self.domainr_url = domainr_url
+        self.domainr_key = domainr_key
 
     def check_date_type(self, exp_date):
         if isinstance(exp_date, datetime):  # check if dates converted to datetime object
@@ -35,9 +33,10 @@ class Domain:
             exp_date = w.expiration_date
             self.check_date_type(exp_date)
             self.registrar = w.registrar
-        except whois.parser.PywhoisError:
+        except Exception as e:
             self.exp_date = 'none'
             self.registrar = 'none'
+            print(e)
         # getting domain availability info
         try:
             res, json_data = self.http(name)
@@ -58,7 +57,7 @@ class Domain:
 
     def http(self, name):
         self.con.request('GET',
-                         '/v2/status?mashape-key=' + self.domainr_key +
+                         self.domainr_url + self.domainr_key +
                          '&domain=' + name)
         res = self.con.getresponse()
         res_data = res.read()

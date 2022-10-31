@@ -3,4 +3,3 @@ pandas==1.5.0
 pick==2.0.2
 python-dotenv==0.21.0
 python_whois==0.8.0
-whois==0.9.16
